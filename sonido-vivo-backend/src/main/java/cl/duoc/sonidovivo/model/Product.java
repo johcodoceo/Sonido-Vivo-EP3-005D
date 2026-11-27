@@ -14,3 +14,4 @@ public class Product {
   @NotNull @Min(0) @Column(nullable=false) public Integer stock;
   public Product() {}
 }
+// feat 
