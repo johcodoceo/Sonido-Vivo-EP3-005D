@@ -7,3 +7,7 @@ import AppRoutes from './routes/AppRoutes.jsx';
 import { OrderProvider } from './context/OrderContext.jsx';
 export default function App() {
 
+   return <BrowserRouter><AuthProvider><UserProvider><ProductProvider>
+    <CartSessionProvider><OrderProvider><AppRoutes /></OrderProvider></CartSessionProvider>
+  </ProductProvider></UserProvider></AuthProvider></BrowserRouter>;
+}
