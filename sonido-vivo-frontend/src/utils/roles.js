@@ -1,8 +1,4 @@
-export const ROLES = Object.freeze({
-  CLIENTE: 'cliente',
-  VENDEDOR: 'vendedor',
-  ADMIN: 'administrador',
-});
+
 
 export const ROLE_LABELS = Object.freeze({
   [ROLES.CLIENTE]: 'Cliente',
